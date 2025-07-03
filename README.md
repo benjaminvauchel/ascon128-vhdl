@@ -68,3 +68,7 @@ Each module is unit-tested individually and then integrated into a full simulati
 ## References
 
 - Jean-Max Dutertre, Olivier Potin, Guillaume Reymond, Jean-Baptiste Rigaud, "Modélisation VHDL de l’algorithme de déchiffrement ASCON," Projet PCSN EI2021, 2022
+
+## Licence
+
+This project is provided for academic purposes. Feel free to explore, modify, or build upon it.

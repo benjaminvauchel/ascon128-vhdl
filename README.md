@@ -37,6 +37,8 @@ ASCON-128/
 │ ├── RTL/ # VHDL source files for all components
 │ └── BENCH/ # VHDL testbenches for each component
 │
+├── Report (french, academic).pdf
+│
 ├── README.md
 ```
 

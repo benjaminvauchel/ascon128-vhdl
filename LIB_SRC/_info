@@ -1,0 +1,88 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/eleves/home/benjamin.vauchel/2A/PCSN/ASCON/PROJET_ASCON
+Eascon_top
+Z1 w1670349518
+Z2 DPx7 lib_rtl 10 ascon_pack 0 22 AleDlDNoZ]oha?0nH<1P72
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z6 8SRC/RTL/ascon_top_final.vhd
+Z7 FSRC/RTL/ascon_top_final.vhd
+l0
+L8 1
+V1BYn>6>kE8_7;m`4UZdjz1
+!s100 k`R:DRV0jnlJAOhG=L:>?2
+Z8 OL;C;2020.4;71
+32
+Z9 !s110 1670349813
+!i10b 1
+Z10 !s108 1670349812.000000
+Z11 !s90 -work|LIB_SRC|SRC/RTL/ascon_top_final.vhd|
+Z12 !s107 SRC/RTL/ascon_top_final.vhd|
+!i113 0
+Z13 o-work LIB_SRC
+Z14 tExplicit 1 CvgOpt 0
+Aascon_top_arch
+R2
+R3
+R4
+R5
+Z15 DEx4 work 9 ascon_top 0 22 1BYn>6>kE8_7;m`4UZdjz1
+!i122 1
+l101
+Z16 L24 158
+Z17 V;R=hdI_Ei8IKFbo@lkRVZ3
+Z18 !s100 VkoiJUNb>RC8[M_UlCMgI3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Cascon_top_conf
+eascon_top
+aascon_top_arch
+DEx7 lib_rtl 12 permu_finale 0 22 7;36n[SKfOJ6U_mfJJjV`2
+DEx7 lib_rtl 20 compteur_double_init 0 22 k6P<]3HADk19Tk148=ndg3
+DEx7 lib_rtl 8 compteur 0 22 QUgQ45YNPiJljg9>`9=_=3
+DEx7 lib_rtl 16 fsm_moore_finale 0 22 3KnEG3;d99kUL1^4MOj4C0
+DAx4 work 9 ascon_top 14 ascon_top_arch 22 ;R=hdI_Ei8IKFbo@lkRVZ3
+R2
+R3
+R4
+R5
+R15
+!i122 1
+R1
+R0
+R6
+R7
+l0
+L183 1
+V>loFOB>VzgB9ZB6@?R[[Q1
+!s100 aahM0k:[HUj5XPWA><i<80
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14

@@ -1,0 +1,908 @@
+# //  ModelSim SE-64 2020.4 Oct 13 2020 Linux 3.10.0-1160.76.1.el7.x86_64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# ** Warning: License feature 'msimviewer' will expire in 14 days.
+vsim LIB_BENCH.ascon_top_final_tb_conf
+# vsim LIB_BENCH.ascon_top_final_tb_conf 
+# Start time: 15:32:12 on Dec 17,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# ** Warning: License feature 'msimhdlsim' will expire in 14 days.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading lib_rtl.ascon_pack
+# Loading work.ascon_top_final_tb_conf#1
+# Loading work.ascon_top_final_tb(ascon_top_final_tb_arch)#1
+# Loading lib_rtl.ascon_top_final(ascon_top_final_arch)#1
+# Loading lib_rtl.substitution(substitution_arch)#1
+# ** Warning: (vsim-8683) Uninitialized out port /ascon_top_final_tb/DUT/cipher_valid_o has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ascon_top_final_tb/DUT/end_o has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position insertpoint sim:/ascon_top_final_tb/DUT/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(63)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(62)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(61)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(60)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(59)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(58)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(57)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(56)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(55)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(54)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(53)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(52)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(51)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(50)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(49)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(48)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(47)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(46)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(45)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(44)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(43)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(42)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(41)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(40)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(39)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(38)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(37)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(36)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(35)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(34)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(33)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(32)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(31)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(30)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(29)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(28)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(27)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(26)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(25)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(24)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(23)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(22)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(21)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(20)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(19)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(18)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(17)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(16)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(15)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(14)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(13)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(12)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(11)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(10)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(9)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(8)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(7)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(6)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(5)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(4)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(3)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(2)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(1)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(0)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/add_const1
+run
+run
+run
+run
+run
+run
+run
+# ** Fatal: (vsim-3421) Value 12 is out of range 0 to 11.
+#    Time: 770 ns  Iteration: 2  Process: /ascon_top_final_tb/DUT/permu_finale1/add_const1/line__21 File: ./SRC/RTL/add_const.vhd Line: 21
+# Fatal error in Block add_const1 at ./SRC/RTL/add_const.vhd line 21
+# 
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+vsim LIB_BENCH.ascon_top_final_tb_conf
+# ** Warning: License feature 'msimhdlsim' will expire in 14 days.
+# End time: 15:37:05 on Dec 17,2022, Elapsed time: 0:04:53
+# Errors: 1, Warnings: 67
+# vsim LIB_BENCH.ascon_top_final_tb_conf 
+# Start time: 15:37:05 on Dec 17,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: License feature 'msimhdlsim' will expire in 14 days.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading lib_rtl.ascon_pack
+# Loading work.ascon_top_final_tb_conf#1
+# Loading work.ascon_top_final_tb(ascon_top_final_tb_arch)#1
+# Loading lib_rtl.ascon_top_final(ascon_top_final_arch)#1
+# Loading lib_rtl.substitution(substitution_arch)#1
+# ** Warning: (vsim-8683) Uninitialized out port /ascon_top_final_tb/DUT/cipher_valid_o has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ascon_top_final_tb/DUT/end_o has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position insertpoint  \
+sim:/ascon_top_final_tb/clock_s \
+sim:/ascon_top_final_tb/resetb_s \
+sim:/ascon_top_final_tb/data_valid_s \
+sim:/ascon_top_final_tb/start_s \
+sim:/ascon_top_final_tb/data_s \
+sim:/ascon_top_final_tb/cipher_s \
+sim:/ascon_top_final_tb/key_s \
+sim:/ascon_top_final_tb/tag_s \
+sim:/ascon_top_final_tb/end_s \
+sim:/ascon_top_final_tb/cipher_valid_s \
+sim:/ascon_top_final_tb/nonce_s
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(63)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(62)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(61)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(60)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(59)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(58)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(57)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(56)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(55)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(54)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(53)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(52)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(51)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(50)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(49)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(48)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(47)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(46)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(45)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(44)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(43)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(42)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(41)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(40)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(39)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(38)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(37)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(36)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(35)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(34)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(33)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(32)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(31)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(30)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(29)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(28)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(27)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(26)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(25)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(24)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(23)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(22)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(21)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(20)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(19)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(18)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(17)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(16)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(15)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(14)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(13)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(12)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(11)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(10)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(9)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(8)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(7)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(6)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(5)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(4)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(3)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(2)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(1)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(0)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/add_const1
+run
+run
+run
+run
+run
+run
+run
+# ** Fatal: (vsim-3421) Value 12 is out of range 0 to 11.
+#    Time: 770 ns  Iteration: 2  Process: /ascon_top_final_tb/DUT/permu_finale1/add_const1/line__21 File: ./SRC/RTL/add_const.vhd Line: 21
+# Fatal error in Block add_const1 at ./SRC/RTL/add_const.vhd line 21
+# 
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+add wave -position insertpoint sim:/ascon_top_final_tb/DUT/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# ** Warning: (vsim-8683) Uninitialized out port /ascon_top_final_tb/DUT/cipher_valid_o has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ascon_top_final_tb/DUT/end_o has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: License feature 'msimhdlsim' will expire in 14 days.
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(63)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(62)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(61)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(60)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(59)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(58)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(57)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(56)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(55)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(54)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(53)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(52)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(51)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(50)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(49)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(48)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(47)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(46)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(45)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(44)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(43)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(42)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(41)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(40)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(39)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(38)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(37)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(36)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(35)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(34)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(33)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(32)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(31)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(30)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(29)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(28)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(27)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(26)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(25)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(24)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(23)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(22)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(21)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(20)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(19)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(18)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(17)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(16)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(15)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(14)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(13)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(12)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(11)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(10)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(9)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(8)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(7)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(6)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(5)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(4)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(3)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(2)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(1)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(0)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/add_const1
+run
+run
+run
+run
+run
+run
+run
+# ** Fatal: (vsim-3421) Value 12 is out of range 0 to 11.
+#    Time: 770 ns  Iteration: 2  Process: /ascon_top_final_tb/DUT/permu_finale1/add_const1/line__21 File: ./SRC/RTL/add_const.vhd Line: 21
+# Fatal error in Block add_const1 at ./SRC/RTL/add_const.vhd line 21
+# 
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+add wave -position insertpoint  \
+sim:/ascon_top_final_tb/DUT/permu_finale1/xor_begin1/data_i \
+sim:/ascon_top_final_tb/DUT/permu_finale1/xor_begin1/key_i \
+sim:/ascon_top_final_tb/DUT/permu_finale1/xor_begin1/state_i \
+sim:/ascon_top_final_tb/DUT/permu_finale1/xor_begin1/state_o
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# ** Warning: (vsim-8683) Uninitialized out port /ascon_top_final_tb/DUT/cipher_valid_o has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ascon_top_final_tb/DUT/end_o has no driver.
+# This port will contribute value (U) to the signal network.
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(63)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(62)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(61)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(60)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(59)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(58)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(57)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(56)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(55)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(54)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(53)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(52)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(51)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(50)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(49)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(48)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(47)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(46)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(45)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(44)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(43)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(42)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(41)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(40)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(39)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(38)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(37)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(36)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(35)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(34)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(33)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(32)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(31)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(30)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(29)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(28)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(27)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(26)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(25)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(24)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(23)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(22)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(21)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(20)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(19)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(18)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(17)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(16)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(15)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(14)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(13)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(12)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(11)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(10)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(9)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(8)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(7)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(6)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(5)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(4)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(3)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(2)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(1)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(0)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/add_const1
+run
+run
+run
+run
+run
+run
+run
+# ** Fatal: (vsim-3421) Value 12 is out of range 0 to 11.
+#    Time: 770 ns  Iteration: 2  Process: /ascon_top_final_tb/DUT/permu_finale1/add_const1/line__21 File: ./SRC/RTL/add_const.vhd Line: 21
+# Fatal error in Block add_const1 at ./SRC/RTL/add_const.vhd line 21
+# 
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+vsim LIB_BENCH.ascon_top_final_tb_conf
+# End time: 16:26:27 on Dec 17,2022, Elapsed time: 0:49:22
+# Errors: 1, Warnings: 67
+# vsim LIB_BENCH.ascon_top_final_tb_conf 
+# Start time: 16:26:27 on Dec 17,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: License feature 'msimhdlsim' will expire in 14 days.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading lib_rtl.ascon_pack
+# Loading work.ascon_top_final_tb_conf#1
+# Loading work.ascon_top_final_tb(ascon_top_final_tb_arch)#1
+# Loading lib_rtl.ascon_top_final(ascon_top_final_arch)#1
+# Loading lib_rtl.substitution(substitution_arch)#1
+# ** Warning: (vsim-8683) Uninitialized out port /ascon_top_final_tb/DUT/cipher_valid_o has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /ascon_top_final_tb/DUT/end_o has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position insertpoint sim:/ascon_top_final_tb/DUT/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(63)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(62)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(61)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(60)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(59)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(58)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(57)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(56)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(55)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(54)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(53)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(52)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(51)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(50)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(49)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(48)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(47)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(46)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(45)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(44)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(43)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(42)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(41)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(40)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(39)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(38)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(37)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(36)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(35)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(34)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(33)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(32)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(31)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(30)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(29)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(28)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(27)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(26)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(25)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(24)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(23)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(22)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(21)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(20)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(19)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(18)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(17)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(16)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(15)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(14)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(13)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(12)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(11)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(10)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(9)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(8)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(7)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(6)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(5)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(4)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(3)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(2)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(1)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/substitution1/Gen2(0)/sboxi
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /ascon_top_final_tb/DUT/permu_finale1/add_const1
+run
+run
+run
+run
+run
+run
+run
+# ** Fatal: (vsim-3421) Value 12 is out of range 0 to 11.
+#    Time: 770 ns  Iteration: 2  Process: /ascon_top_final_tb/DUT/permu_finale1/add_const1/line__21 File: ./SRC/RTL/add_const.vhd Line: 21
+# Fatal error in Block add_const1 at ./SRC/RTL/add_const.vhd line 21
+# 
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at ./SRC/RTL/add_const.vhd 21 Block add_const1
+# 

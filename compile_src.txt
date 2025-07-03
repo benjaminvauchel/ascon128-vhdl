@@ -1,0 +1,67 @@
+#!/bin/bash
+
+#export PROJECTNAME="."
+
+
+echo "the project location is :  ."
+echo "removing libs"
+vdel -lib  ./LIB/LIB_RTL -all
+vdel -lib  ./LIB/LIB_BENCH -all
+
+echo "creating library "
+
+vlib  ./LIB/LIB_RTL
+vmap LIB_RTL  ./LIB/LIB_RTL
+vlib  ./LIB/LIB_BENCH
+vmap LIB_BENCH  ./LIB/LIB_BENCH
+
+# compilation des fichiers sources
+echo "compile vhdl sources"
+vcom -work LIB_RTL  ./SRC/RTL/ascon_pack.vhd 
+vcom -work LIB_RTL  ./SRC/RTL/add_const.vhd
+vcom -work LIB_RTL  ./SRC/RTL/sbox.vhd
+vcom -work LIB_RTL  ./SRC/RTL/diffusion.vhd
+vcom -work LIB_RTL  ./SRC/RTL/mux.vhd
+vcom -work LIB_RTL  ./SRC/RTL/substitution.vhd
+#vcom -work LIB_RTL  ./SRC/RTL/reg.vhd
+vcom -work LIB_RTL  ./SRC/RTL/state_register_w_en.vhd
+vcom -work LIB_RTL  ./SRC/RTL/register_w_en.vhd
+#vcom -work LIB_RTL  ./SRC/RTL/permu_base.vhd
+vcom -work LIB_RTL  ./SRC/RTL/xor_begin.vhd
+vcom -work LIB_RTL  ./SRC/RTL/xor_end.vhd
+#vcom -work LIB_RTL  ./SRC/RTL/permu_inter.vhd
+vcom -work LIB_RTL  ./SRC/RTL/permu_finale.vhd
+vcom -work LIB_RTL  ./SRC/RTL/compteur.vhd
+vcom -work LIB_RTL  ./SRC/RTL/compteur_double_init.vhd
+#vcom -work LIB_RTL  ./SRC/RTL/fsm_moore.vhd
+vcom -work LIB_RTL  ./SRC/RTL/fsm_moore_finale.vhd
+vcom -work LIB_RTL  ./SRC/RTL/ascon_top.vhd
+    
+
+# compilation des fichiers TB
+echo "compile vhdl test bench"
+
+#vcom -work LIB_BENCH  ./SRC/BENCH/add_const_tb.vhd
+#vcom -2008 -work LIB_BENCH  ./SRC/BENCH/sbox_tb.vhd
+#vcom -work LIB_BENCH  ./SRC/BENCH/substitution_tb.vhd
+#vcom -work LIB_BENCH  ./SRC/BENCH/diffusion_tb.vhd
+#vcom -work LIB_BENCH  ./SRC/BENCH/mux_tb.vhd
+#vcom -work LIB_BENCH  ./SRC/BENCH/substitution_tb.vhd
+#vcom -work LIB_BENCH  ./SRC/BENCH/register_w_en_tb.vhd
+#vcom -work LIB_BENCH  ./SRC/BENCH/state_register_w_en_tb.vhd
+#vcom -work LIB_BENCH  ./SRC/BENCH/permu_base_tb.vhd
+#vcom -work LIB_BENCH  ./SRC/BENCH/permu_inter_tb.vhd
+#vcom -work LIB_BENCH  ./SRC/BENCH/permu_finale_tb.vhd
+#vcom -work LIB_BENCH  ./SRC/BENCH/xor_begin_tb.vhd
+#vcom -work LIB_BENCH  ./SRC/BENCH/xor_end_tb.vhd
+#vcom -work LIB_BENCH  ./SRC/BENCH/fsm_moore_tb.vhd
+
+vcom -work LIB_BENCH  ./SRC/BENCH/ascon_top_tb.vhd
+
+# lancement du simulateur
+echo "compilation finished"
+echo "start simulation..."
+
+# ATTENTION un seul VSIM decommenté à la fois !
+
+#vsim LIB_BENCH.ascon_top_tb_conf #-do ascon_top_wave.do

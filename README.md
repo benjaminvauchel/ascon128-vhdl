@@ -30,7 +30,7 @@ ASCON-128 is a lightweight authenticated encryption algorithm selected in the [N
 - Benchtests verifying every feature
 
 ## Project Structure
-<pre> ```text ASCON-128/ │ ├── SRC/ │ ├── RTL/ # VHDL source files for all components │ └── BENCH/ # VHDL testbenches for each component │ ├── DOC/ │ └── Rapport.pdf # Project report (French) │ ├── README.md ``` </pre>
+```text ASCON-128/ │ ├── SRC/ │ ├── RTL/ # VHDL source files for all components │ └── BENCH/ # VHDL testbenches for each component │ ├── DOC/ │ └── Rapport.pdf # Project report (French) │ ├── README.md ``` 
 
 ## How to Simulate
 
